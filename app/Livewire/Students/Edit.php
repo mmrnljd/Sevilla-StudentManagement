@@ -49,6 +49,7 @@ class Edit extends Component
         );
 
         flash()->success('Student added successfully');
+        flash()->success('Student updated successfully');
         
         return $this->redirect(Index::class, navigate: true);
     }
